@@ -14,5 +14,10 @@ namespace AlmostEmptyStarter.Controllers
         {
             return View();
         }
+
+        public IActionResult MissionStatement()
+        {
+            return View();
+        }
     }
 }
